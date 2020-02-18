@@ -1,0 +1,72 @@
+@font-face {
+font-family: ArialGreek;
+src: url('Arial_Greek.ttf'),
+     url('Arial Greek.eot');
+}
+html {
+    background-color: hsl(0, 0%, 95.69%);
+    color: hsl(0, 10%, 30%);
+    margin: 0 auto;
+    font-family: ArialGreek;
+}
+ul.inline > li {
+    display: inline;
+    padding-left: 15px;
+    color: hsl(0, 10%, 50%);
+}
+.inline {
+    padding-left: 100px;
+}
+#headerdiv {
+    margin: 0 auto;
+    display: block;
+    letter-spacing: .5px;
+    text-align: center;
+    padding-top: 10px;
+}
+#headerdiv > * {
+    display: inline-block;
+    text-align: center;
+}
+.postheader {
+    text-align: center;
+}
+.blogpost {
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: hsl(0, 8%, 26%);
+
+}
+.postdate {
+    text-align: center;
+    color: hsl(0, 0%, 72%);
+    padding-top: 15px;
+}
+button {
+    margin: 0 auto;
+    display: block;
+    background-color: hsl(202, 50%, 53%);
+    color: white;
+    padding: 5px 25px;
+    font-size: medium;
+    border-radius: 2px;
+}
+.blogheader {
+    padding-right: 100px;
+}
+img {
+    display: inline-block;
+}
+.inlinesub > * {
+    display: inline;
+    padding-right: 15px;
+    color: hsl(0, 10%, 50%);
+    text-align: left;
+}
+.copyright {
+    text-align: center;
+}
