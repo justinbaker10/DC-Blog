@@ -11,7 +11,7 @@ html {
 }
 ul.inline > li {
     display: inline;
-    padding-left: 15px;
+    padding-left: 20px;
     color: hsl(0, 10%, 50%);
 }
 .inline {
@@ -32,9 +32,8 @@ ul.inline > li {
     text-align: center;
 }
 .blogpost {
-    text-align: left;
-    padding-left: 400px;
-    padding-right: 400px;
+    max-width: 600px;
+    margin: 0 auto;
     padding-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -44,16 +43,17 @@ ul.inline > li {
 .postdate {
     text-align: center;
     color: hsl(0, 0%, 72%);
-    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: auto;
 }
 button {
-    margin: 0 auto;
+    margin: auto;
     display: block;
     background-color: hsl(202, 50%, 53%);
     color: white;
     padding: 5px 25px;
     font-size: medium;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .blogheader {
     padding-right: 100px;
@@ -65,7 +65,9 @@ img {
     display: inline;
     padding-right: 15px;
     color: hsl(0, 10%, 50%);
-    text-align: left;
+}
+.inlinesub {
+    padding: 0;
 }
 .copyright {
     text-align: center;
